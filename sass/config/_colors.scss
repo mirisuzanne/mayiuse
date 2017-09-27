@@ -1,0 +1,14 @@
+// Colors
+// ======
+
+$colors: (
+  'brown': #3d3527,
+  'orange': #db5600,
+
+  'contrast-light': 'brown' ('tint': 90%),
+  'contrast-dark': 'brown' ('shade': 90%),
+
+  'background': 'brown',
+  'text': 'brown' ('contrast': 'contrast-light' 'contrast-dark'),
+  'action': 'orange',
+);

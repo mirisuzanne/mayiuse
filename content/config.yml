@@ -1,0 +1,38 @@
+---
+
+# Features
+features:
+  - 'flexbox'
+  - 'grid'
+  - 'custom properties'
+  - 'calc()'
+  - 'viewport units'
+
+# yes
+yesss:
+  - 'sure'
+  - 'yep'
+  - 'you do you'
+  - 'ok'
+  - 'of course'
+  - 'I would'
+  - 'make it so'
+  - 'yes, please'
+
+
+# site
+author: 'Miriam Suzanne'
+email: 'miriam@miriamsuzanne.com'
+description: 'Permission to use fancy new web toys'
+
+copyright:
+  - name: 'Miriam Eric Suzanne'
+    year: '2017'
+    url: 'http://oddbird.net/'
+
+
+# settings
+active_modules: [typogrify, uniqify, urls, pages]
+canonical_url: http://www.mayiuse.org/
+output_folder: ../docs
+template_path: ../templates

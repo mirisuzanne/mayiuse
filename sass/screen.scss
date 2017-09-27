@@ -1,0 +1,39 @@
+// App Styles
+// ==========
+
+@import '../node_modules/accoutrement-init/sass/init';
+@import 'config/manifest';
+
+:root {
+  @include contrasted('background');
+  font-family: 'Source Sans Pro', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-size: calc(18px + 0.5vw);
+}
+
+body {
+  line-height: 1.4;
+  margin: 1rem auto;
+  max-width: 35rem;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+section {
+  margin: 2rem 0;
+}
+
+h2 {
+  @include contrasted('action');
+  font-weight: normal;
+  padding: 0.5rem;
+}
+
+.feature {
+  p {
+    font-size: 3rem;
+    padding: 0.5rem;
+    text-align: center;
+  }
+}
