@@ -37,11 +37,14 @@ body {
   align-items: baseline;
   background-color: var(--feature);
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+  justify-content: safe center;
   padding: 0.5em 1em;
 }
 
 h1 {
+  flex: none;
   font: inherit;
 }
 
