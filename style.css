@@ -53,6 +53,7 @@ h1 {
   color: inherit;
   border: 0 solid currentColor;
   border-bottom-width: 1px;
+  border-radius: 0;
   flex: 1;
   font: inherit;
   margin: 0 0.5em;
@@ -66,6 +67,10 @@ h1 {
 }
 
 summary::marker {
+  display: none;
+}
+
+summary::-webkit-details-marker {
   display: none;
 }
 
