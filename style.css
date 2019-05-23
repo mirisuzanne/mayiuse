@@ -5,9 +5,20 @@ html {
   --action: #DB8000;
   --feature: #DB5600;
   --block-bg: #f2e8d5;
+  --overlay: hsla(0, 0%, 100%, 0.025);
   align-content: center;
   background-color: #3D3527;
   background-color: var(--bg, #3D3527);
+  background-image: linear-gradient(
+    to bottom right,
+    transparent 50%,
+    var(--overlay) 50%
+  ), linear-gradient(
+    to right,
+    var(--overlay) 1px,
+    transparent 1px
+  );
+  background-size: 12em 12em, 0.5em auto;
   color: white;
   display: grid;
   font-family: sans-serif;
